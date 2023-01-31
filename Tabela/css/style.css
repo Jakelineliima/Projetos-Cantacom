@@ -1,0 +1,145 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #6e6e6e;
+}
+
+.mod126_container {
+    display: flex;
+    justify-content: center;
+}
+
+.mod126_cont2 {
+    display: flex;
+}
+
+.mod126_tabelaroxa {
+    display: flex;
+    align-items: center;
+    height: 82px;
+    width: 163px;
+    background-color: #663399;
+    color: #ffffff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin: 13px auto;
+}
+
+.mod126_tabelaroxa>strong {
+    margin: 12px
+}
+
+
+.mod126_table_roxaclaro {
+    border-style: solid;
+    border-radius: 23px;
+    margin: 12px 0px 0 20px;
+    border-color: #d0bbe5;
+    background: #d0bbe5;
+    height: 463px;
+}
+
+.mod126_table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 82px;
+    width: 125px;
+    margin: 10px auto;
+}
+
+/* tabela diamante */
+
+.mod126_diamanteimg {
+    background-color: #000;
+    border-radius: 23px;
+    border: 1px solid #FFF;
+    margin: 12px 0px 0 20px;
+    height: 463px;
+    width: 103px;
+}
+
+.mod126_img_diamante {
+    width: 62px;
+    position: absolute;
+    top: 152px;
+}
+
+.mod126_img_seta {
+    position: absolute;
+    top: 414px;
+    background-color: none;
+}
+
+.mod126_img_seta>img {
+    width: 46px;
+}
+
+
+.mod126_table_diamante {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+css botao .mod126_control {
+    display: none;
+}
+
+@media screen and (max-width: 925px) {
+
+    .mod126_roxa {
+        position: absolute;
+        left: 1px;
+    }
+
+    .mod126_tabelaroxa {
+        max-width: 111px;
+    }
+
+    .mod126_cont2 {
+        position: absolute;
+        left: 116px;
+    }
+
+    .mod126_diamanteimg {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .mod126_control {
+        display: block;
+    }
+
+    .mod126_tabelaroxa {
+        max-width: 111px;
+    }
+
+    .mod126_table_roxaclaro {
+        width: 95px;
+        margin: 12px 0px 0 9px;
+    }
+
+    .mod126_table {
+        width: auto;
+    }
+
+
+}
+
+
+
+/*  css slide */
+
+.mod126_exibir_diamante {
+  display: none;
+  position:absolute;
+} 
+
+
+
+
