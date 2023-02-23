@@ -1,0 +1,47 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+img {
+    width: 26px;
+}
+
+.container_2 {
+    max-width: 650px;
+}
+
+.container_1 {
+    display: flex;
+    justify-content: center;
+}
+
+.pergunta {
+    display: flex;
+    align-items: center;
+    margin: 0 0 17px 0;
+}
+
+.txtpergunta {
+    margin: 0 0 0 28px;
+}
+
+
+.resposta {
+    display: none;
+    margin: 0 0 0 48px;
+}
+
+.divresposta {
+    margin: 18px 0 23px 0;
+    max-width: 630px;
+}
+
+button {
+    margin: 0 0 0 273px;
+    background: #FFFFFF;
+    border: none;
+}
+
+hr{
+    width: 640px;
+}
