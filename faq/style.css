@@ -13,6 +13,8 @@ img {
 .container_1 {
     display: flex;
     justify-content: center;
+    margin: 37px 0 0 0;
+
 }
 
 .pergunta {
@@ -23,6 +25,7 @@ img {
 
 .txtpergunta {
     margin: 0 0 0 28px;
+    width: 500px;
 }
 
 
@@ -37,11 +40,63 @@ img {
 }
 
 button {
-    margin: 0 0 0 273px;
+    margin: 0 18px 0 94px;
+    /* margin: 0 0 0 273px; */
     background: #FFFFFF;
     border: none;
 }
 
-hr{
+hr {
     width: 640px;
+    color: #7c7c7c;
 }
+
+@media (max-width: 650px) {
+    .container_2 {
+        max-width: 400px;
+    }
+
+    button {
+        margin: auto;
+    }
+
+    .imgponto {
+        margin: 0 0 0 25px;
+    }
+
+    .divresposta {
+        max-width: 366px;
+    }
+
+    .txtpergunta {
+
+        margin: 0px 26px 0px 13px;
+
+    }
+
+    .resposta {
+        margin: 0 0 0 63px;
+    }
+
+    hr {
+        max-width: 400px;
+    }
+
+}
+
+/* @media (max-width: 361px) {
+    .container_2 {
+        max-width: 500px;
+    }
+
+    hr {
+        width: 520px;
+    }
+
+    button {
+        margin: auto;
+    }
+    .txtpergunta{
+        margin: 0 150px 0 28px;
+    }
+} */
